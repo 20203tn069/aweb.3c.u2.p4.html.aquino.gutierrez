@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=mai, initial-scale=1.0">
+    <title>Práctica HTML 4</title>
+    <style>
+        body{
+            background-color: #f0f0f0;
+        }
+        header{
+            text-align: center;
+        }
+        .menu{
+            width: 20%;
+            float: left;
+            background-color: #83C8AD;
+        }
+        .menu ul {
+            list-style: none;
+        }
+        .menu ul li {
+            padding: 5px;
+        }
+        .menu ul a:link,
+        .menu ul a:visited,
+        .menu ul a:active{
+            text-decoration: none;
+            color: #000;
+            }
+            .menu ul li:hover{
+                background-color: #337B8E;
+                font-weight: bold;
+            }
+            #content{
+                width: 80%;
+                float:left;
+            }
+            #content article {
+                margin: 10px
+            }
+
+            article h1{
+                color:#54BA72; 
+                border-bottom: #000 solid 1px;
+            }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Práctica HTML 4</h1>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li> 
+                    <a href="#">Inicio</a> 
+                </li>
+                <li>
+                   <a href="#">Tipo agua</a> 
+                </li>
+                <li>
+                   <a href="#">Tipo planta</a> 
+                </li>
+                <li>
+                   <a href="#"> Tipo fuego</a>
+                </li>
+            </ul>
+        </nav>
+        <section id="content">
+            <article>
+                <h1>Artículo 1</h1> 
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo doloribus, recusandae eveniet nobis dignissimos nulla ipsa perspiciatis. Nemo nesciunt quod est impedit enim temporibus voluptates et. Porro quidem eos fugiat?</p>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                    <li>Item 5</li>
+                </ul>
+            </article>
+            <article>
+                <h1>Artículo 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In commodi explicabo doloremque expedita, tempore ipsa vitae. Velit eos dolore, pariatur dolores odio nostrum excepturi qui deleniti quia, provident modi rerum.</p>
+            </article>
+        </section>
+        <footer>Pie de página</footer>
+    </main>
+</body>
+</html>
